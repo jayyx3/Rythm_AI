@@ -65,32 +65,33 @@ The project uses the **Arrhythmia Dataset** from the UCI Machine Learning Reposi
 Rhythm_AI/
 │
 ├── Data/
-│   └── arrhythmia.csv                    # Original dataset
+│   └── arrhythmia.csv                         # Original dataset
 │
 ├── Preprocessing and EDA/
-│   ├── Data preprocessing.ipynb          # Data cleaning and preprocessing
-│   └── EDA.ipynb                         # Exploratory data analysis
+│   ├── 01_data_preprocessing.ipynb            # Data cleaning and preprocessing
+│   └── 02_exploratory_data_analysis.ipynb     # Exploratory data analysis
 │
 ├── Model/
-│   ├── general and pca.ipynb             # General models with PCA
-│   └── oversampled and pca.ipynb         # Models with oversampled data
+│   ├── 01_general_models_with_pca.ipynb       # General models with PCA
+│   └── 02_oversampled_models_with_pca.ipynb   # Models with oversampled data
 │
 ├── Image/
-│   ├── arrhythmia.jpg                    # Project banner image
-│   ├── age.png                           # Age distribution visualization
-│   ├── sex.png                           # Gender distribution
-│   ├── weight.png                        # Weight distribution
-│   ├── height.png                        # Height distribution
-│   ├── QRS duration.png                  # QRS duration analysis
-│   ├── missingvalue.png                  # Missing values visualization
-│   ├── Histogram class distribution.png  # Class distribution
-│   ├── class wise visualization.png      # Class-wise analysis
-│   └── pairwiseGraph.png                 # Feature pairwise relationships
+│   ├── arrhythmia.jpg                         # Project banner image
+│   ├── age.png                                # Age distribution visualization
+│   ├── sex.png                                # Gender distribution
+│   ├── weight.png                             # Weight distribution
+│   ├── height.png                             # Height distribution
+│   ├── qrs_duration_distribution.png          # QRS duration analysis
+│   ├── missing_values_analysis.png            # Missing values visualization
+│   ├── class_histogram.png                    # Class distribution histogram
+│   ├── classwise_distribution.png             # Class-wise analysis
+│   └── feature_pairwise_plot.png              # Feature pairwise relationships
 │
-├── final with pca.ipynb                  # Complete end-to-end pipeline
-├── new data with target class.csv        # Processed dataset
-├── requirements.txt                      # Python dependencies
-└── README.md                             # Project documentation
+├── 01_complete_pipeline_with_pca.ipynb        # Complete end-to-end pipeline
+├── processed_arrhythmia_data.csv              # Processed dataset
+├── requirements.txt                           # Python dependencies
+├── .gitignore                                 # Git ignore file
+└── README.md                                  # Project documentation
 
 ```
 
@@ -173,28 +174,28 @@ Multiple classification algorithms:
 1. **Data Preprocessing:**
    ```bash
    # Open and run
-   Preprocessing and EDA/Data preprocessing.ipynb
+   Preprocessing and EDA/01_data_preprocessing.ipynb
    ```
 
 2. **Exploratory Data Analysis:**
    ```bash
    # Open and run
-   Preprocessing and EDA/EDA.ipynb
+   Preprocessing and EDA/02_exploratory_data_analysis.ipynb
    ```
 
 3. **Model Training and Evaluation:**
    ```bash
    # For general models
-   Model/general and pca.ipynb
+   Model/01_general_models_with_pca.ipynb
    
    # For oversampled models
-   Model/oversampled and pca.ipynb
+   Model/02_oversampled_models_with_pca.ipynb
    ```
 
 4. **Complete End-to-End Workflow:**
    ```bash
    # Run the comprehensive pipeline
-   final with pca.ipynb
+   01_complete_pipeline_with_pca.ipynb
    ```
 
 ### Quick Start Example
