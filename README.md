@@ -1,4 +1,4 @@
-# Rhythm_AI - Arrhythmia Classification using Machine Learning
+# Rhythm_AI - Arrhythmia Classification using Machine Learning 
 
 <div align="center">
   <img src="Image/arrhythmia.jpg" alt="Arrhythmia Detection" width="600"/>
